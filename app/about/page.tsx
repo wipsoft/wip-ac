@@ -103,7 +103,7 @@ export default function About() {
               {project.name}
             </OutLink>
           ))}
-          <span className="sm:w-fit group transition-all p-1.5 sm:p-0 border sm:border-0">
+          <span className="sm:w-fit group transition-all p-1.5 sm:p-0 border bg-white sm:border-0">
             {" "}
             + MORE
           </span>
@@ -133,7 +133,7 @@ const OutLink = ({
   return (
     <a
       href={href}
-      className={`sm:w-fit group transition-all hover:text-blue-800 text-blue-600 p-1.5 sm:p-0 border sm:border-0 ${
+      className={`sm:w-fit group transition-all hover:text-blue-800 text-blue-600 bg-white p-1.5 sm:p-0 border sm:border-0 ${
         block ? "block" : "inline"
       }`}
     >
